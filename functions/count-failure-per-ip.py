@@ -13,5 +13,4 @@ logs=[
     {"ip":"192.168.1.10","status":"failed"},
     {"ip":"192.168.1.10","status":"failed"}
 ]
-
 print(count_failure_ip(logs))
