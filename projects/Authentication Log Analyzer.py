@@ -47,7 +47,7 @@ def save_results(data):
                 f.write(f"{ip} | {count}\n")
 
     except Exception as e:
-        print("Cannot save results:", e)
+        print("Cannot save result:", e)
 
 
 def main():
