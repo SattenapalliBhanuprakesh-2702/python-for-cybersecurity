@@ -1,0 +1,7 @@
+user=admin email=admin@test.com pass=admin123
+user=john email=john.doe@gmail.com pass=welcome2023
+login=root email=root@server.local pass=rootpass
+email=attacker@evil.net pass=hacked123
+user=alice email=alice_01@yahoo.com pass=alice@123
+contact=support email=support@company.com
+backup email=backup@corp.org pass=backup2024
