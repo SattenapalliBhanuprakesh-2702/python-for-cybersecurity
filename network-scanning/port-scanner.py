@@ -15,8 +15,8 @@ def scan_host(ip,ports):
     try:
         open_ports=[]
         
-        with ThreadPoolExecutor(max_workers=100) as executer:
-            results=executer.map(lambda p: scan_port(ip,p), ports)
+        with ThreadPoolExecutor(max_workers=100) as executor:
+            results=executor.map(lambda p: scan_port(ip,p), ports)
             
             for r in results:
                 if r:
