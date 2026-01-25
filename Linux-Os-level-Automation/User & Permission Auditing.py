@@ -1,15 +1,15 @@
 
 def list_users():
-    with open("etc/passwd") as f:
-        user=[]
+    user=[]
+    with open("/etc/passwd") as f:
         for line in f:
             part=line.split(":")
             user.append(part[0])
     return user
 
 def list_sudo_user():
-    with open("etc/group") as f:
-        sudo=[]
+    sudo=[]
+    with open("/etc/group") as f:
         for line in f:
             if line.startswith("sudo"):
                 sudo=line.strip().split(":")[-1].split(",")
