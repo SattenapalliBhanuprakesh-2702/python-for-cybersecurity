@@ -1,6 +1,0 @@
-EMAILS
-
-IPS
-
-LINKS
-https://iana.org/domains/example
